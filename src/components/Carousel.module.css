@@ -30,7 +30,8 @@
 
 .slide > h3 {
   order: 2;
-  grid-column: 8 col-start / span 6;
+  grid-column: 7 col-start / span 6;
+  font-weight: 500;
   font-size: 1.75rem;
   padding-top: 10%;
 }

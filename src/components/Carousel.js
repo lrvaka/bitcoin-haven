@@ -46,13 +46,13 @@ const Carousel = () => {
     setSelectedSlide(index);
   };
 
-  const slideButtons = DUMMY_BUTTONS.map((e, index) => (
+  const SlideButtons = DUMMY_BUTTONS.map((e, index) => (
     <button key={index} onClick={() => selectSlideHandler(index)}>
       {e.title}
     </button>
   ));
 
-  const slide = (
+  const Slide = (
     <div className={classes.slide}>
       <img
         src={DUMMY_SLIDES[selectedSlide].image}
@@ -64,8 +64,8 @@ const Carousel = () => {
 
   return (
     <Fragment>
-      <div className={classes.buttonSection}>{slideButtons}</div>
-      {slide}
+      <div className={classes.buttonSection}>{SlideButtons}</div>
+      {Slide}
     </Fragment>
   );
 };

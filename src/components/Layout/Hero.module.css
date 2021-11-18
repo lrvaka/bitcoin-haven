@@ -23,7 +23,7 @@
 }
 
 .hero > img {
-  width: 675px;
+  width: 500px;
   animation: move 10s ease-in-out infinite;
   align-self: center;
 }
@@ -35,6 +35,7 @@
   top: 16rem;
   left: 62%;
   animation: none;
+  display: none;
 }
 
 .hero > section {

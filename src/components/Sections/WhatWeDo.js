@@ -6,9 +6,7 @@ const WhatWeDo = () => {
   return (
     <Container classes={classes.whatWeDoContainer}>
       <section className={classes.whatWeDo}>
-        <div className={classes.titleHead}>
-          <h1>Monetary solutions on your terms, not the banks</h1>
-        </div>
+        <h1>Monetary solutions on your terms, not the banks</h1>
       </section>
       <Carousel />
     </Container>

@@ -1,6 +1,61 @@
+.container {
+  max-width: 1100px;
+}
+
 .threePillars {
+  margin-top: 100px;
+  color: white;
+  text-align: center;
+}
+
+.threePillars > h1 {
+  font-size: 3.75rem;
+  line-height: 4rem;
+  font-weight: 800;
+  color: #ff9416;
+  padding: 16px 0;
+  margin: 25px 0;
+}
+
+.threeCards {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+}
+
+.red {
+  background-color: rgba(255, 0, 0, 0.1);
+  color: rgb(255, 0, 0);
+}
+
+.green {
+  background-color: rgba(0, 255, 0, 0.1);
+  color: rgb(0, 255, 0);
+}
+
+.blue {
+  background-color: rgba(0, 0, 255, 0.1);
+  color: rgb(0, 0, 255);
+}
+
+.card {
+  border-radius: 5px;
+  width: 27.5%;
+  padding: 25px 0;
+  background-color: #f8e3b4;
+  text-align: center;
+}
+
+.card > h1 {
+  margin-bottom: 10px;
+  color: black;
+  font-weight: 800;
+}
+
+.card > p {
+  background-color: #3f3d565d;
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
   color: white;
+  padding: 15px;
 }
